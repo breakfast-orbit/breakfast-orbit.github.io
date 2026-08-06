@@ -10,4 +10,4 @@ Haruka Nakamuraが提供するアプリのプライバシーポリシーです�
 
 ## Contact
 
-[nhmuhagn@gmail.com](mailto:nhmuhagn@gmail.com)
+[breakfastorbit@gmail.com](mailto:breakfastorbit@gmail.com)

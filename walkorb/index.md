@@ -2,7 +2,9 @@
 title: WalkOrb Privacy Policy
 ---
 
-# WalkOrb プライバシーポリシー
+# <a id="ja"></a>WalkOrb プライバシーポリシー
+
+<p class="lang-switch"><a href="#en">English</a></p>
 
 制定日：2026年8月1日<br>
 施行日：WalkOrbのApp Store公開日
@@ -12,7 +14,7 @@ WalkOrb（以下「本アプリ」）は、利用者のプライバシーを尊�
 ## 1. 運営者とお問い合わせ先
 
 - 運営者：Haruka Nakamura
-- メールアドレス：[nhmuhagn@gmail.com](mailto:nhmuhagn@gmail.com)
+- メールアドレス：[breakfastorbit@gmail.com](mailto:breakfastorbit@gmail.com)
 
 ## 2. 本アプリが取り扱うデータ
 
@@ -84,7 +86,9 @@ HealthKitから取得したデータは、広告、マーケティングまた�
 
 ---
 
-# WalkOrb Privacy Policy (English)
+# <a id="en"></a>WalkOrb Privacy Policy (English)
+
+<p class="lang-switch"><a href="#ja">日本語</a></p>
 
 Issued: August 1, 2026<br>
 Effective date: Upon WalkOrb's initial release on the App Store
@@ -94,7 +98,7 @@ WalkOrb (the “App”) respects your privacy and handles data only to the exten
 ## 1. Operator and contact
 
 - Operator: Haruka Nakamura
-- Email: [nhmuhagn@gmail.com](mailto:nhmuhagn@gmail.com)
+- Email: [breakfastorbit@gmail.com](mailto:breakfastorbit@gmail.com)
 
 ## 2. Data handled by the App
 

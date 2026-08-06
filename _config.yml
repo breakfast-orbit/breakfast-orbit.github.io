@@ -1,4 +1,9 @@
 title: App Privacy Policies
 description: Privacy policies for apps provided by Haruka Nakamura
-theme: minima
 lang: ja
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

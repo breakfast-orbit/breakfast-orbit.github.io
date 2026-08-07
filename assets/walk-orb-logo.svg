@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1418" height="400" viewBox="0 0 1418 400" role="img" aria-labelledby="title desc">
+  <title id="title">Walk Orb logo</title>
+  <desc id="desc">Soft Walk Orb wordmark built from orb-based letterforms.</desc>
+
+  <g fill="none" stroke="#5f7588" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round">
+
+    <path d="M60 110 L120 322 L180 150 L240 322 L300 110"></path>
+
+    <path d="M488 236 V322"></path>
+    <circle cx="402" cy="236" r="86"></circle>
+
+    <path d="M534 78 V300 Q534 322 559 322"></path>
+
+    <path d="M593 78 V322"></path>
+    <path d="M593 235 L663 148"></path>
+    <path d="M593 235 L673 322"></path>
+
+    <circle cx="878" cy="215" r="115"></circle>
+
+    <path d="M1023 148 V322"></path>
+    <path d="M1023 236 C1049 190 1087 151 1132 170"></path>
+
+    <path d="M1150 78 V236"></path>
+    <circle cx="1236" cy="236" r="86"></circle>
+  </g>
+</svg>

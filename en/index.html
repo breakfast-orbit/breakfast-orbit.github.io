@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -564,16 +566,17 @@
           <h2 class="section-title">News</h2>
 
           <div class="timeline">
-            <!-- CMS導入後は article.timeline-item を1件ずつ生成する想定 -->
+            {% for item in site.data.news.en %}
             <article class="timeline-item">
-              <time class="timeline-date" datetime="2026-08-07">2026.08.07</time>
+              <time class="timeline-date" datetime="{{ item.date }}">{{ item.date | date: "%Y.%m.%d" }}</time>
 
               <div class="timeline-body">
-                <span class="timeline-app">Breakfast Orbit</span>
-                <h3>We redesigned our website</h3>
-                <p>We’ll share Breakfast Orbit apps and updates here.</p>
+                <span class="timeline-app">{{ item.app | default: "Breakfast Orbit" }}</span>
+                <h3>{{ item.title }}</h3>
+                <p>{{ item.body }}</p>
               </div>
             </article>
+            {% endfor %}
           </div>
         </div>
       </section>

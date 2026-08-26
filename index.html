@@ -14,6 +14,8 @@ layout: none
   <link rel="alternate" hreflang="x-default" href="https://breakfast-orbit.github.io/">
 
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500&display=swap');
+
     :root {
       --bg: #ffffff;
       --fg: #171717;
@@ -178,6 +180,15 @@ layout: none
       object-fit: contain;
       object-position: left center;
       margin-bottom: 20px;
+    }
+
+    .app-title {
+      margin: 0 0 20px;
+      font-family: "M PLUS 1p", sans-serif;
+      font-size: clamp(1.8rem, 4vw, 2.5rem);
+      line-height: 1.2;
+      letter-spacing: -0.04em;
+      font-weight: 500;
     }
 
     .app-details {
@@ -519,6 +530,46 @@ layout: none
               <div class="app-top">
                 <img
                   class="app-icon"
+                  src="./assets/tsuzuruedit-icon.png"
+                  width="112"
+                  height="112"
+                  alt="つづるEditのアイコン">
+
+                <div class="app-heading">
+                  <h3 class="app-title">つづるEdit</h3>
+                  <p class="app-tagline">書いたら縦書きプレビュー</p>
+                </div>
+              </div>
+
+              <div class="app-details">
+                <p class="app-description">
+                  iCloud DriveやiPhone内のテキスト・Markdownを編集し、縦書きプレビューで確認できます。
+                </p>
+
+                <div class="app-actions">
+                  {% if site.data.apps.tsuzuruedit.app_store_url != empty %}
+                  <div class="app-store-slot">
+                    <a class="app-store-link" href="{{ site.data.apps.tsuzuruedit.app_store_url | escape }}">
+                      <img
+                        class="apple-store-badge"
+                        src="./assets/Download_on_the_App_Store_Badge_JP_RGB_blk_100317.svg"
+                        alt="App Storeからダウンロード">
+                    </a>
+                  </div>
+                  {% endif %}
+
+                  <div class="app-links">
+                    <a class="text-link" href="./tsuzuruedit/support/">サポート <span aria-hidden="true">↗</span></a>
+                    <a class="text-link" href="./tsuzuruedit/">プライバシーポリシー <span aria-hidden="true">↗</span></a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="app">
+              <div class="app-top">
+                <img
+                  class="app-icon"
                   src="./assets/walk-orb-icon.png"
                   width="112"
                   height="112"
@@ -540,16 +591,16 @@ layout: none
                 </p>
 
                 <div class="app-actions">
+                  {% if site.data.apps.walkorb.app_store_url != empty %}
                   <div class="app-store-slot">
-                    <!--
-                      Apple公式の日本語版「App Storeからダウンロード」バッジをここに追加します。
-                      公式提供画像をそのまま使用し、Walk OrbのApp Store URLへリンクしてください。
-                    -->
-                    <img
-                      class="apple-store-badge"
-                      src="./assets/Download_on_the_App_Store_Badge_JP_RGB_blk_100317.svg"
-                      alt="App Storeからダウンロード">
+                    <a class="app-store-link" href="{{ site.data.apps.walkorb.app_store_url | escape }}">
+                      <img
+                        class="apple-store-badge"
+                        src="./assets/Download_on_the_App_Store_Badge_JP_RGB_blk_100317.svg"
+                        alt="App Storeからダウンロード">
+                    </a>
                   </div>
+                  {% endif %}
 
                   <div class="app-links">
                     <a class="text-link" href="./walkorb/support/">サポート <span aria-hidden="true">↗</span></a>

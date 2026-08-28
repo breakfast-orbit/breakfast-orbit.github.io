@@ -7,7 +7,7 @@ title: WalkOrb Privacy Policy
 <p class="lang-switch"><a href="#en">English</a></p>
 
 制定日：2026年8月1日<br>
-施行日：WalkOrbのApp Store公開日
+施行日：2026年8月28日
 
 WalkOrb（以下「本アプリ」）は、利用者のプライバシーを尊重し、必要な範囲に限ってデータを取り扱います。本ポリシーは、本アプリにおけるデータの取得、利用、保存および第三者サービスへの提供について説明するものです。
 
@@ -97,7 +97,7 @@ HealthKitから取得したデータは、広告、マーケティングまた�
 <p class="lang-switch"><a href="#ja">日本語</a></p>
 
 Issued: August 1, 2026<br>
-Effective date: Upon WalkOrb's initial release on the App Store
+Effective date: August 28, 2026
 
 WalkOrb (the “App”) respects your privacy and handles data only to the extent necessary. This Privacy Policy explains how the App accesses, uses, stores, and shares data with third-party services.
 

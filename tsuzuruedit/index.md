@@ -7,7 +7,7 @@ title: TsuzuruEdit Privacy Policy
 <p class="lang-switch"><a href="#en">English</a></p>
 
 制定日：2026年8月26日<br>
-施行日：つづるEditのApp Store公開日
+施行日：2026年9月5日
 
 つづるEdit（以下「本アプリ」）は、利用者が選んだ場所にあるテキスト・Markdownファイルを扱うアプリです。本ポリシーは、本アプリが取り扱うデータ、その利用目的、保存場所および第三者サービスとの関係について説明するものです。
 
@@ -86,7 +86,7 @@ title: TsuzuruEdit Privacy Policy
 <p class="lang-switch"><a href="#ja">日本語</a></p>
 
 Issued: August 26, 2026<br>
-Effective date: Upon TsuzuruEdit's initial release on the App Store
+Effective date: September 5, 2026
 
 TsuzuruEdit (the “App”) handles text and Markdown files in locations chosen by the user. This Policy explains what data the App handles, why it is handled, where it is stored, and how Apple and other services are involved.
 

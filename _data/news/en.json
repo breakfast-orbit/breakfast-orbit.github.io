@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-09-09",
+    "app": "WalkOrb",
+    "title": "WalkOrb 1.0.1 is now available",
+    "body": "We improved the layout on iPad and in landscape orientation, and fixed a few minor bugs."
+  },
+  {
     "date": "2026-09-05",
     "app": "TsuzuruEdit",
     "title": "TsuzuruEdit is now available",

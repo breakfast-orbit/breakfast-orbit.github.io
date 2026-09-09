@@ -255,9 +255,6 @@ layout: none
 
     .timeline-item {
       position: relative;
-      display: grid;
-      grid-template-columns: 120px minmax(0, 1fr);
-      gap: 24px;
       padding: 0 0 54px 28px;
       border-left: 1px solid var(--line);
     }
@@ -284,9 +281,14 @@ layout: none
       font-variant-numeric: tabular-nums;
     }
 
-    .timeline-app {
-      display: block;
+    .timeline-meta {
+      display: flex;
+      align-items: baseline;
+      gap: 14px;
       margin-bottom: 7px;
+    }
+
+    .timeline-app {
       color: var(--muted);
       font-size: 0.78rem;
       font-weight: 500;
@@ -461,7 +463,6 @@ layout: none
       }
 
       .timeline-item {
-        grid-template-columns: 1fr;
         gap: 4px;
         padding-left: 24px;
         padding-bottom: 44px;
@@ -620,10 +621,11 @@ layout: none
           <div class="timeline">
             {% for item in site.data.news.en %}
             <article class="timeline-item">
-              <time class="timeline-date" datetime="{{ item.date }}">{{ item.date | date: "%Y.%m.%d" }}</time>
-
               <div class="timeline-body">
-                <span class="timeline-app">{{ item.app | default: "Breakfast Orbit" }}</span>
+                <div class="timeline-meta">
+                  <time class="timeline-date" datetime="{{ item.date }}">{{ item.date | date: "%Y.%m.%d" }}</time>
+                  <span class="timeline-app">{{ item.app | default: "Breakfast Orbit" }}</span>
+                </div>
                 <h3>{{ item.title }}</h3>
                 <p>{{ item.body }}</p>
               </div>

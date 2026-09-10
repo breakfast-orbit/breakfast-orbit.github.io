@@ -259,7 +259,7 @@ layout: none
       border-left: 1px solid var(--line);
     }
 
-    .timeline-item:last-child {
+    .timeline-item:last-of-type {
       padding-bottom: 0;
     }
 
@@ -485,6 +485,43 @@ layout: none
         animation-iteration-count: 1 !important;
       }
     }
+
+    .news-load-more {
+      position: relative;
+      display: block;
+      width: 100%;
+      margin: 0;
+      padding: 0 0 0 28px;
+      background: none;
+      border: 0;
+      border-left: 1px solid var(--line);
+      color: var(--fg);
+      font: inherit;
+      font-size: 0.85rem;
+      line-height: 1.75;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .news-load-more::before {
+      content: "";
+      position: absolute;
+      left: -5px;
+      top: 7px;
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--fg);
+      box-shadow: 0 0 0 5px var(--bg);
+    }
+
+    .news-load-more:hover {
+      color: var(--muted);
+    }
+
+    .timeline-item.is-hidden {
+      display: none;
+    }
   </style>
 </head>
 
@@ -631,6 +668,8 @@ layout: none
               </div>
             </article>
             {% endfor %}
+
+            <button class="news-load-more" type="button">Load more</button>
           </div>
         </div>
       </section>
@@ -659,5 +698,43 @@ layout: none
       </div>
     </footer>
   </div>
+
+  <script>
+    (function () {
+      var PAGE_SIZE = 3;
+      var LOAD_MORE_LABEL = 'Load more';
+      var COLLAPSE_LABEL = 'Collapse';
+      var items = document.querySelectorAll('#timeline .timeline-item');
+      var btn = document.querySelector('.news-load-more');
+      var shown = PAGE_SIZE;
+
+      items.forEach(function (item, i) {
+        if (i >= PAGE_SIZE) item.classList.add('is-hidden');
+      });
+
+      if (items.length <= PAGE_SIZE) {
+        btn.style.display = 'none';
+        return;
+      }
+
+      btn.addEventListener('click', function () {
+        if (shown >= items.length) {
+          for (var i = PAGE_SIZE; i < items.length; i++) {
+            items[i].classList.add('is-hidden');
+          }
+          shown = PAGE_SIZE;
+          btn.textContent = LOAD_MORE_LABEL;
+          return;
+        }
+
+        var next = Math.min(shown + PAGE_SIZE, items.length);
+        for (var i = shown; i < next; i++) {
+          items[i].classList.remove('is-hidden');
+        }
+        shown = next;
+        if (shown >= items.length) btn.textContent = COLLAPSE_LABEL;
+      });
+    })();
+  </script>
 </body>
 </html>

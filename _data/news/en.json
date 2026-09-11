@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-09-11",
+    "app": "TsuzuruEdit",
+    "title": "TsuzuruEdit 1.0.1 is now available",
+    "body": "We added support for Japanese line-breaking rules in manuscript paper preview and fixed a few minor bugs."
+  },
+  {
     "date": "2026-09-09",
     "app": "WalkOrb",
     "title": "WalkOrb 1.0.1 is now available",

@@ -7,7 +7,8 @@ title: Stock Loop Privacy Policy
 <p class="lang-switch"><a href="#en">English</a></p>
 
 制定日：2026年9月7日<br>
-施行日：アプリの公開日
+施行日：アプリの公開日<br>
+改定日：2026年9月19日<br>
 
 Stock Loop（以下「本アプリ」）は、日用品や食品などのストック数を管理し、使い切ったものを利用者が選んだAppleリマインダーまたはショートカットへつなげるiPhoneアプリです。本ポリシーは、本アプリが取り扱うデータ、その保存場所、Appleのサービスおよび利用者が選んだショートカットとの関係について説明します。
 
@@ -51,7 +52,7 @@ Shortcuts連携では、利用者が設定したショートカットへスト�
 
 ## 5. 保存期間と削除
 
-在庫データと設定は端末内に保存され、利用者が削除するか本アプリをアンインストールするまで保持されます。本アプリは同期機能、独自のバックアップ、書き出し、復元を提供しません。Appleやショートカット側で処理されるデータは、それぞれのポリシーに従います。
+在庫データと設定は端末内に保存され、利用者が削除するか本アプリをアンインストールするまで保持されます。本アプリは同期機能を提供しませんが、設定画面から在庫データとカテゴリのJSON書き出し・復元を提供します。書き出し・復元の対象はアプリ内の在庫データとカテゴリに限られ、Appleリマインダー、Shortcuts連携状態および外部Todoは含まれません。Appleやショートカット側で処理されるデータは、それぞれのポリシーに従います。
 
 ## 6. 利用者による管理
 
@@ -76,7 +77,8 @@ Shortcuts連携では、利用者が設定したショートカットへスト�
 <p class="lang-switch"><a href="#ja">日本語</a></p>
 
 Issued: September 7, 2026<br>
-Effective date: App publication date
+Effective date: App publication date<br>
+Revised: September 19, 2026<br>
 
 Stock Loop (the “App”) manages quantities of household goods and food, and connects items that have been used up to Apple Reminders or a Shortcut selected by the user. This Policy explains what data the App handles, where it is stored, and how Apple services and the user’s selected Shortcut are involved.
 
@@ -120,7 +122,7 @@ The App does not sell user data. Processing involving Apple Reminders, the App S
 
 ## 5. Retention and deletion
 
-Stock data and settings are stored on the device and remain until the user deletes them or uninstalls the App. The App has no synchronization feature and does not provide its own backup, export, or restore. Data processed by Apple or the selected Shortcut is governed by the applicable service or app policies.
+Stock data and settings are stored on the device and remain until the user deletes them or uninstalls the App. The App does not provide synchronization, but it provides JSON export and restore for stock data and categories from Settings. Export and restore cover only in-App stock data and categories; they do not include Apple Reminders, Shortcuts integration state, or external Todos. Data processed by Apple or the selected Shortcut is governed by the applicable service or app policies.
 
 ## 6. Your controls
 

@@ -8,7 +8,6 @@ title: Stock Loop Privacy Policy
 
 制定日：2026年9月7日<br>
 施行日：アプリの公開日<br>
-改定日：2026年9月19日<br>
 
 Stock Loop（以下「本アプリ」）は、日用品や食品などのストック数を管理し、使い切ったものを利用者が選んだAppleリマインダーまたはショートカットへつなげるiPhoneアプリです。本ポリシーは、本アプリが取り扱うデータ、その保存場所、Appleのサービスおよび利用者が選んだショートカットとの関係について説明します。
 
@@ -78,7 +77,6 @@ Shortcuts連携では、利用者が設定したショートカットへスト�
 
 Issued: September 7, 2026<br>
 Effective date: App publication date<br>
-Revised: September 19, 2026<br>
 
 Stock Loop (the “App”) manages quantities of household goods and food, and connects items that have been used up to Apple Reminders or a Shortcut selected by the user. This Policy explains what data the App handles, where it is stored, and how Apple services and the user’s selected Shortcut are involved.
 
